@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="IE=edge">
+	<title>旅游网站</title>
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+	<style>
+		body{font-family: Microsoft YaHei;}
+		.head-top{
+			background: #5fa022;
+			padding: 0.8em 0;
+		}
+		.navbar-brand{padding: 0 0;}
+		.navbar-brand>img{
+			height: auto;
+			margin-right: 5px;
+			margin-top: 5px;
+			width: 250px;
+		}
+		.navbar-default{
+			padding: 1.5em 0;
+			background-color: #f2f0f1;
+			box-shadow: 12px -5px 39px -12px;
+		}
+		.navbar-default .navbar-nav>li a{
+			top: 10px;
+			padding: 0.5em 3em;
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 1.2em;
+			color: #919191;
+		}
+		.navbar-default .navbar-nav>li a:hover,
+		.navbar-default .navbar-nav>li a:focus{
+			background: #d96b99;
+			color: white;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+		}
+		.navbar-right>a{
+			color: #d96b99;
+		}
+		#jiudian>img{
+			margin: 0 auto;
+		}
+		#jiudian>h4{
+			text-align: center;
+		}
+		#jingdian{
+			background-color: #ccc;
+		}
+		#footer{
+			background-color: #000;
+			color: #fff;
+		}
+		@media (max-width: 970px){
+			.navbar-default .navbar-nav>li a{
+				font-size: 1.1em;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="head-top"></div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="container">
+					<div class="navbar-header">
+						<a href="#" class="navbar-brand"><img src="images/logo.jpg" alt=""></a>
+						<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+							<span class="sr-only"><!-- Toggle Navigation -->汉堡按钮</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="#zhuye">主页</a></li>
+							<li><a href="#chengdou">成都介绍</a></li>
+							<li><a href="#jingdian">成都景点介绍</a></li>
+							<li><a href="#jiudian">酒店</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+<section id="zhuye">
+	<div id="slidershow" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#slidershow" data-slide-to="0"></li>
+        <li data-target="#slidershow" data-slide-to="1"></li>
+        <li data-target="#slidershow" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#">
+                <img src="images/carousel1.jpg" style=" height:400px;margin:0 auto;">
+            </a>
+            <div class="carousel-caption">
+                <h3>成都旅游</h3>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="images/carousel2.jpg"  style="height:400px;margin:0 auto;">
+            </a>
+            <div class="carousel-caption">
+                <h3>成都旅游</h3>
+            </div>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="images/carousel3.jpg" style=" height:400px;margin:0 auto;"></a>
+            <div class="carousel-caption">
+                <h3>成都旅游</h3>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#slidershow" role="button"
+       data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#slidershow" role="button"
+       data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+</section>
+<section id="chengdou">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-10">
+				<div class="text-center">
+					<h2>成都介绍</h2>
+					<div class="row">
+						<div class="col-md-12">
+							<p>
+							成都是国家历史文化名城，古蜀文明发祥地，中国十大古都之一。公元前四世纪，开明王朝九世以“一年成邑，二年成都”，故名成都；先后有7个割据政权在此建都；一直是各朝代的州、郡治所；汉为全国五大都会之一；唐为中国最发达的工商业城市之一，史称“扬一益二”；北宋是汴京以外的第二大都会，发明了世界上第一种纸币交子。拥有都江堰、武侯祠、杜甫草堂、金沙遗址等名胜古迹，是中国优秀旅游城市。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="jingdian">
+	<div class="orangeback">
+		<div class="container">
+			<div class="text-center homeport2"><h2>成都介绍</h2></div>
+			<div class="row">
+				<div class="col-md-12 homeservices1">
+					<div class="col-md-3 portfolio-item">
+						<div class="text-center">
+							<a href="javascript:void(0);">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-circle fa-stack-2x"></i>
+							  <i class="fa fa-line-chart fa-stack-1x"></i>
+							</span>
+							</a>
+							<h3><a href="#">都江堰</a></h3>
+							<p>都江堰是世界文化遗产（2000年被联合国教科文组织列入“世界文化遗产”名录）、世界自然遗产（四川大熊猫栖息地）、全国重点文物保护单位、国家级风景名胜区、国家AAAAA级旅游景区。</p>
+						</div>
+					</div>
+					<div class="col-md-3 portfolio-item">
+						<div class="text-center">
+							<a href="javascript:void(0);">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-circle fa-stack-2x"></i>
+							  <i class="fa fa-users fa-stack-1x"></i>
+							</span>
+							</a>
+							<h3><a href="#">武侯祠</a></h3>
+							<p>武侯祠（汉昭烈庙），全国重点文物保护单位，国家AAAA级旅游景区，国家一级博物馆。它是中国唯一的一座君臣合祀祠庙和最负盛名的诸葛亮、刘备及蜀汉英雄纪念地，也是全国影响最大的三国遗迹博物馆。</p>
+						</div>
+					</div>
+					<div class="col-md-3 portfolio-item">
+						<div class="text-center">
+							<a href="javascript:void(0);">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-circle fa-stack-2x"></i>
+							  <i class="fa fa-code fa-stack-1x"></i>
+							</span>
+							</a>
+							<h3><a href="#">杜甫草堂</a></h3>
+							<p>成都杜甫草堂博物馆位于四川省成都市青羊区青华路37号，是中国唐代大诗人杜甫流寓成都时的故居。杜甫先后在此居住近四年，创作诗歌240余首。唐末诗人韦庄寻得草堂遗址，重结茅屋，使之得以保存，宋元明清历代都有修葺扩建。</p>
+						</div>
+					</div>
+					<div class="col-md-3 portfolio-item">
+						<div class="text-center">
+							<a href="javascript:void(0);">
+							<span class="fa-stack fa-lg">
+							  <i class="fa fa-circle fa-stack-2x"></i>
+							  <i class="fa fa-cogs fa-stack-1x"></i>
+							</span>
+							</a>
+							<h3><a href="#">金沙遗址</a></h3>
+							<p>成都金沙遗址博物馆的两大主体建筑为遗迹馆和陈列馆，外形都采用了斜坡的方式，喻示着金沙遗址的冉冉升起。成都金沙遗址博物馆有金器、铜器、玉器、石器、漆木器、陶器、象牙等馆藏文物共2235件（套）。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="jiudian">
+	<div class="container">
+		<div class="text-center"><h2>酒店</h2>
+		</div>
+		<div class="row">
+			<div class="col-md-12 homeport1">
+				<div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+					<figure class="effect-oscar">
+						<img src="images/1.jpg" class="img-responsive" />
+						<figcaption>
+							<h4>成都顺城店</h4>
+						</figcaption>           
+					</figure>
+					<p class="text-center">成都 青羊区 白丝街56号 ，近春熙路、IFS，鼓楼北二街。</p>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+					<figure class="effect-oscar">
+						<img src="images/2.jpg" class="img-responsive"/>
+						<figcaption>
+							<h4>成都春熙亚朵S同道星座酒店</h4>
+						</figcaption>           
+					</figure>
+					<p class="text-center">成都 锦江区 红星路二段70号主楼四川报业集团大厦旁 ，近IFS,太古里,春熙路。 </p>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12 portfolio-item">
+					<figure class="effect-oscar">
+						<img src="images/3.jpg" class="img-responsive"/>
+						<figcaption>
+							<h4>成都武侯祠锦里店</h4>
+						</figcaption>           
+					</figure>
+					<p class="text-center">成都 武侯区 武侯祠横街2号 ，车行10分钟至宽窄巷子景区。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer id="footer">
+	<div class="container">
+		<div class="row myfooter">
+			<div class="col-sm-6"><div class="pull-left">
+			Copyright &copy; 2019.personal AnNan
+			</div></div>
+			<div class="col-sm-6">
+				<div class="pull-right">考试制作</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="lib/jquery/jquery-1.11.0.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
